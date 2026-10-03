@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css"/>
+    <title>LoginPage</title>
+</head>
+<body>
+    <div class="tabs">
+        <span class="tab active">Password</span>
+        <br>
+        <span class="tab option">Phone Number</span>
+        <br>
+        <span class="close tab">c</span>
+    </div>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="/login" method="POST">
+            <input type="text" id="username" name="username" placeholder="Please enter your Phone or Email" required>
+            <input type="password" id="password" name="password" placeholder="Please enter your password" required>  
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <div class="forgot-password">
+        <a href="/forgot-password">Forgot Password?</a>
+    </div>
+    <div class="signup-link">
+        <p>Don't have an account? <a href="/signup">Sign up</a></p>
+    </div>
+</body>
+</html>
