@@ -1,36 +1,208 @@
 <!DOCTYPE html>
-<html lang="en">
+<<<<<<< HEAD
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css"/>
-    <title>Landing Page</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
-        }
-        body {
-            background-color: #f4f4f5;
-            color: #212121;
-            font-size: 14px;
-        }
-        .top-bar {
-            background-color: #f5f5f5;
-            border-bottom: 1px solid #e0e0e0;
-            font-size: 12px;
-            color: #555;
-            display: none;
-        }
-        
-        p {
-            font-size: 24px;
-            color: #333;
-        }
+    <title>Lazada Indonesia - Belanja Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p> ini raissa </p>
+    <div class="top-nav">
+        <div class="container nav-wrapper">
+            <a href="#" class="nav-pink">MASUKAN</a>
+            <a href="#" class="nav-blue">LEBIH MURAH DI APP</a>
+            <a href="#">MENJADI SELLER</a>
+            <a href="#">CUSTOMER CARE</a>
+            <a href="#">LACAK PESANAN</a>
+            <a href="#">LOGIN</a>
+            <a href="#">DAFTAR</a>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-wrapper">
+            <a href="#" class="logo">
+                <svg class="logo-svg" viewBox="0 0 100 100">
+                    <defs>
+                        <linearGradient id="lazGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#ff1744"/>
+                            <stop offset="50%" stop-color="#ff5252"/>
+                            <stop offset="100%" stop-color="#ff9100"/>
+                        </linearGradient>
+                    </defs>
+                    <path fill="url(#lazGrad)" d="M50 88s-35-22-35-50a22 22 0 0 1 35-17.5A22 22 0 0 1 85 38c0 28-35 50-35 50z"/>
+                    <path fill="#0f1568" opacity="0.9" d="M38 35l24-14v30l-24 14z"/>
+                </svg>
+                <span class="logo-text">Lazada</span>
+            </a>
+            <div class="search-box">
+                <input type="text" placeholder="Cari di Lazada">
+                <button class="search-btn" aria-label="Cari">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#fff" stroke-width="2.5">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </div>
+            <a href="#" class="cart-btn" aria-label="Keranjang">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#0f1568" stroke-width="2">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <main class="main-body">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="banner">
+                    <div class="banner-left">
+                        <div class="brand-line">
+                            <span class="lazmall-text">M LazMall</span>
+                            <span class="divider">|</span>
+                            <span class="brand-kenvue">Kenvue</span>
+                        </div>
+                        <div class="event-title">BIG BRAND DAY</div>
+
+                        <div class="today-pill">hanya HARI INI</div>
+
+                        <h1 class="diskon-text">
+                            DISKON <span class="num-50">50%</span>
+                            <span class="sub-hingga">hingga</span>
+                        </h1>
+
+                        <p class="voucher-info">Voucher s.d. <strong>30rb</strong> + Gratis Hadiah</p>
+
+                        <a href="#" class="btn-beli">BELI SEKARANG</a>
+                    </div>
+                    <div class="banner-right">
+                        <div class="heart-frame"></div>
+                        <div class="podium"></div>
+                        
+                        <div class="products">
+                            <div class="bottle johnsons">
+                                <div class="cap"></div>
+                                <div class="label">Johnson's <span>baby</span></div>
+                            </div>
+                            <div class="bottle aveeno">
+                                <div class="cap"></div>
+                                <div class="label">Aveeno. <span>LOTION</span></div>
+                            </div>
+                            <div class="bottle listerine">
+                                <div class="cap"></div>
+                                <div class="label">LISTERINE <span>MULTI PROTECT</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dots-wrapper">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+                <div class="app-card">
+                    <div class="app-card-top">
+                        <div class="laz-app-icon">Laz</div>
+                        <div class="app-card-title">
+                            <h3>Download Lazada App Sekarang</h3>
+                        </div>
+                    </div>
+
+                    <div class="rating-row">
+                        <span class="star-badge">★ 4.8 Rated</span>
+                        <p class="voucher-sub">Nikmati Berbagai Voucher</p>
+                    </div>
+
+                    <div class="benefits-row">
+                        <div class="benefit-badge">
+                            <div class="benefit-ic teal">🚚</div>
+                            <span>Gratis Ongkir</span>
+                        </div>
+                        <div class="benefit-badge">
+                            <div class="benefit-ic pink">🏷️</div>
+                            <span>Eksklusif Promo</span>
+                        </div>
+                    </div>
+
+                    <div class="qr-block">
+                        <div class="qr-box">
+                            <div class="qr-matrix"></div>
+                        </div>
+                        <div class="store-links">
+                            <a href="#" class="store-btn">App Store</a>
+                            <a href="#" class="store-btn">Google Play</a>
+                        </div>
+                    </div>
+
+                    <p class="scan-note">Scan Sekarang Untuk Download App</p>
+                </div>
+
+            </div>
+
+            <div class="feature-cards-grid">
+                <a href="#" class="feature-card">
+                    <div class="card-info">
+                        <h3>LazMall</h3>
+                        <p>Toko resmi dengan produk 100% original</p>
+                    </div>
+                    <div class="card-icon-box pink-bg">
+                        <span class="lm-text">LM</span>
+                    </div>
+                </a>
+                <a href="#" class="feature-card">
+                    <div class="card-info">
+                        <h3>Pulsa & Tagihan</h3>
+                        <p>Isi pulsa, bayar tagihan, dan lainnya</p>
+                    </div>
+                    <div class="card-icon-box blue-bg">
+                        <div class="phone-ic">
+                            <div class="arrow-up">↑</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="feature-card">
+                    <div class="card-info">
+                        <h3><span class="orange-bar">|</span> BrandWiki</h3>
+                        <p>Jelajahi Merek di Lazada</p>
+                    </div>
+                    <div class="card-icon-box brand-bg">
+                        <div class="brand-b">
+                            <span>B</span>
+                            <div class="search-mini"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="feature-card">
+                    <div class="card-info">
+                        <h3><span class="pink-heart">♥</span> Lazada Blog</h3>
+                        <p>Temukan Favoritmu Berikutnya</p>
+                    </div>
+                    <div class="card-icon-box blog-bg">
+                        <div class="blog-badge">
+                            <span class="laz-txt">Laz</span>
+                            <span class="blog-txt">BLOG</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+    </main>
+    <div class="floating-chat">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+            <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+        </svg>
+        <span>Pesan</span>
+    </div>
 </body>
 </html>
