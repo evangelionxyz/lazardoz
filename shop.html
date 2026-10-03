@@ -1,13 +1,603 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css"/>
-    <title></title>
+    <title>Bebelac 3 / Bebelac 1+ Madu Susu Pertumbuhan Bubuk 1000gr - Untuk Usia 1-3 Tahun | Lazada Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="">
+    <!-- Top Navigation Bar -->
+    <div class="top-nav">
+        <div class="container nav-wrapper">
+            <a href="#" class="nav-pink">MASUKAN</a>
+            <a href="#" class="nav-blue">LEBIH MURAH DI APP</a>
+            <a href="#">MENJADI SELLER</a>
+            <a href="#">CUSTOMER CARE</a>
+            <a href="#">LACAK PESANAN</a>
+            <a href="login.html">LOGIN</a>
+            <a href="register.html">DAFTAR</a>
+        </div>
     </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="container header-wrapper">
+            <a href="index.html" class="logo" title="Kembali ke Beranda Lazada">
+                <svg class="logo-svg" viewBox="0 0 100 100">
+                    <defs>
+                        <linearGradient id="lazGradPdp" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#ff1744"/>
+                            <stop offset="50%" stop-color="#ff5252"/>
+                            <stop offset="100%" stop-color="#ff9100"/>
+                        </linearGradient>
+                    </defs>
+                    <path fill="url(#lazGradPdp)" d="M50 88s-35-22-35-50a22 22 0 0 1 35-17.5A22 22 0 0 1 85 38c0 28-35 50-35 50z"/>
+                    <path fill="#0f1568" opacity="0.9" d="M38 35l24-14v30l-24 14z"/>
+                </svg>
+                <span class="logo-text">Lazada</span>
+            </a>
+            
+            <div class="search-container-wrap">
+                <div class="search-box">
+                    <input type="text" placeholder="Cari di Lazada" value="Bebelac 3 madu 1000gr">
+                    <button class="search-btn" aria-label="Cari">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#fff" stroke-width="2.5">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                    </button>
+                </div>
+                <div class="search-tags">
+                    <a href="#">maybelline</a>
+                    <a href="#">wardah</a>
+                    <a href="#">sepatu badminton felet</a>
+                    <a href="#">dompet kartu eiger</a>
+                    <a href="#">sandal jepit luofu cewek</a>
+                </div>
+            </div>
+
+            <a href="checkout.html" class="cart-btn" aria-label="Keranjang" title="Buka Checkout / Troli">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#0f1568" stroke-width="2">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- Sub-header / Category Navigation -->
+    <nav class="category-subnav">
+        <div class="container subnav-wrapper">
+            <div class="cat-dropdown-btn">
+                <span>Kategori</span>
+                <span style="font-size: 10px;">∨</span>
+            </div>
+            <div class="subnav-links">
+                <a href="#" class="subnav-link">
+                    <span class="subnav-lm-badge">LM</span>
+                    <span>LazMall</span>
+                </a>
+                <a href="#" class="subnav-link">
+                    <span class="subnav-icon" style="color: #2979ff;">⚡</span>
+                    <span>Pulsa &amp; Tagihan</span>
+                </a>
+                <a href="#" class="subnav-link">
+                    <span class="subnav-icon" style="color: #ff9800;">🏷️</span>
+                    <span>Voucher &amp; Diskon</span>
+                </a>
+                <a href="#" class="subnav-link">
+                    <svg class="google-icon-svg" viewBox="0 0 24 24">
+                        <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                        <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                        <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+                        <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+                    </svg>
+                    <span>Add as a preferred source on Google</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Breadcrumbs -->
+        <div class="breadcrumb-bar">
+            <ul class="breadcrumb-list">
+                <li><a href="index.html">Bayi &amp; Balita</a></li>
+                <li class="breadcrumb-sep">&gt;</li>
+                <li><a href="#">Susu Formula &amp; Makanan Bayi</a></li>
+                <li class="breadcrumb-sep">&gt;</li>
+                <li><a href="#">Susu Formula</a></li>
+                <li class="breadcrumb-sep">&gt;</li>
+                <li><a href="#">Susu Batita (1 dibawah 3 tahu...</a></li>
+                <li class="breadcrumb-sep">&gt;</li>
+                <li class="breadcrumb-current">Bebelac 3 / Bebelac 1+ Madu Susu Pertumbuhan Bubuk 1000gr - Untuk Usia 1-3</li>
+            </ul>
+        </div>
+
+        <!-- Selected Item / Product Detail Page Card -->
+        <section class="pdp-card">
+            <!-- Left Column: Gallery -->
+            <div class="pdp-gallery-col">
+                <div class="pdp-main-image-wrap" id="mainImageContainer">
+                    <!-- High-Fidelity SVG Graphic of Bebelac 3 (Slide 1) -->
+                    <svg id="pdpMainGraphic" class="pdp-main-image-svg" viewBox="0 0 450 450">
+                        <defs>
+                            <linearGradient id="bgGlow" x1="50%" y1="0%" x2="50%" y2="100%">
+                                <stop offset="0%" stop-color="#0a1945"/>
+                                <stop offset="50%" stop-color="#122a6b"/>
+                                <stop offset="100%" stop-color="#071333"/>
+                            </linearGradient>
+                            <radialGradient id="sunburst" cx="50%" cy="45%" r="50%">
+                                <stop offset="0%" stop-color="#ffeb3b" stop-opacity="0.45"/>
+                                <stop offset="40%" stop-color="#fbc02d" stop-opacity="0.2"/>
+                                <stop offset="100%" stop-color="#122a6b" stop-opacity="0"/>
+                            </radialGradient>
+                            <linearGradient id="canGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#ffe082"/>
+                                <stop offset="50%" stop-color="#ffca28"/>
+                                <stop offset="100%" stop-color="#ff8f00"/>
+                            </linearGradient>
+                            <linearGradient id="badgeGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#fff8e1"/>
+                                <stop offset="40%" stop-color="#ffd54f"/>
+                                <stop offset="100%" stop-color="#ff8f00"/>
+                            </linearGradient>
+                            <linearGradient id="sigPill" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#f57f17"/>
+                                <stop offset="50%" stop-color="#fbc02d"/>
+                                <stop offset="100%" stop-color="#f57f17"/>
+                            </linearGradient>
+                            <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+                                <feGaussianBlur stdDeviation="3" result="blur"/>
+                                <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+                            </filter>
+                        </defs>
+
+                        <!-- Background -->
+                        <rect width="450" height="450" fill="url(#bgGlow)"/>
+                        
+                        <!-- Starburst Rays -->
+                        <path d="M225 200 L120 0 L150 0 Z M225 200 L200 0 L250 0 Z M225 200 L300 0 L330 0 Z M225 200 L450 100 L450 140 Z M225 200 L450 250 L450 300 Z M225 200 L350 450 L310 450 Z M225 200 L140 450 L100 450 Z M225 200 L0 300 L0 250 Z M225 200 L0 140 L0 100 Z" fill="#ffd54f" opacity="0.12"/>
+                        <circle cx="225" cy="200" r="160" fill="url(#sunburst)"/>
+
+                        <!-- Top Header: Signature Store -->
+                        <rect x="150" y="24" width="150" height="26" rx="13" fill="url(#sigPill)"/>
+                        <text x="225" y="41" font-size="12" font-weight="800" fill="#212121" text-anchor="middle" font-family="'Roboto', sans-serif">Signature Store</text>
+
+                        <!-- Headline: Terbaik dari Bebelac* -->
+                        <text x="225" y="90" font-size="20" font-weight="900" fill="#ffd54f" text-anchor="middle" font-family="'Roboto', sans-serif" filter="url(#goldGlow)">Terbaik dari Bebelac*</text>
+
+                        <!-- Left Badge: 2x DHA -->
+                        <g transform="translate(100, 150)">
+                            <circle cx="0" cy="0" r="28" fill="url(#badgeGold)" stroke="#fff" stroke-width="2"/>
+                            <text x="0" y="-3" font-size="13" font-weight="900" fill="#e65100" text-anchor="middle" font-family="'Roboto', sans-serif">2x</text>
+                            <text x="0" y="11" font-size="10" font-weight="900" fill="#e65100" text-anchor="middle" font-family="'Roboto', sans-serif">DHA</text>
+                        </g>
+
+                        <!-- Right Badge 1: 3 SERAT PENTING -->
+                        <g transform="translate(350, 145)">
+                            <circle cx="0" cy="0" r="28" fill="url(#badgeGold)" stroke="#fff" stroke-width="2"/>
+                            <text x="0" y="-5" font-size="14" font-weight="900" fill="#e65100" text-anchor="middle" font-family="'Roboto', sans-serif">3</text>
+                            <text x="0" y="7" font-size="7" font-weight="900" fill="#e65100" text-anchor="middle" font-family="'Roboto', sans-serif">SERAT</text>
+                            <text x="0" y="15" font-size="7" font-weight="900" fill="#e65100" text-anchor="middle" font-family="'Roboto', sans-serif">PENTING</text>
+                        </g>
+
+                        <!-- Right Badge 2: 0g SUKROSA -->
+                        <g transform="translate(365, 230)">
+                            <circle cx="0" cy="0" r="24" fill="url(#badgeGold)" stroke="#fff" stroke-width="2"/>
+                            <text x="0" y="-2" font-size="13" font-weight="900" fill="#e65100" text-anchor="middle" font-family="'Roboto', sans-serif">0g</text>
+                            <text x="0" y="9" font-size="6.5" font-weight="800" fill="#e65100" text-anchor="middle" font-family="'Roboto', sans-serif">SUKROSA</text>
+                        </g>
+
+                        <!-- Center: Bebelac 3 Product Can & Box -->
+                        <!-- Golden Glow Behind Can -->
+                        <polygon points="225,120 275,210 370,220 295,290 320,380 225,330 130,380 155,290 80,220 175,210" fill="#ffca28" opacity="0.35"/>
+
+                        <!-- Can Cylinder Body -->
+                        <g transform="translate(225, 255)">
+                            <!-- Can shadow -->
+                            <ellipse cx="0" cy="80" rx="65" ry="12" fill="#000000" opacity="0.4"/>
+                            
+                            <!-- Can Body -->
+                            <rect x="-60" y="-80" width="120" height="155" rx="16" fill="url(#canGold)" stroke="#fff" stroke-width="2"/>
+                            
+                            <!-- Can Top Rim / Lid -->
+                            <ellipse cx="0" cy="-80" rx="60" ry="14" fill="#0277bd" stroke="#fff" stroke-width="1.5"/>
+                            <ellipse cx="0" cy="-82" rx="52" ry="10" fill="#01579b"/>
+
+                            <!-- Can Label: Navy Banner -->
+                            <path d="M-60 -45 Q0 -35 60 -45 L60 10 Q0 20 -60 10 Z" fill="#012b72"/>
+                            <text x="0" y="-12" font-size="22" font-weight="900" fill="#ffffff" text-anchor="middle" font-family="'Roboto', sans-serif">Bebelac</text>
+                            
+                            <!-- Number 3 badge -->
+                            <circle cx="40" cy="-14" r="12" fill="#ff9100" stroke="#fff" stroke-width="1.5"/>
+                            <text x="40" y="-9" font-size="12" font-weight="900" fill="#ffffff" text-anchor="middle" font-family="'Roboto', sans-serif">3</text>
+
+                            <!-- Sub-label: NutriGreat+ -->
+                            <text x="0" y="2" font-size="12" font-weight="800" fill="#ffd54f" text-anchor="middle" font-family="'Roboto', sans-serif">NutriGreat+</text>
+
+                            <!-- Jumbo Pack Ribbon -->
+                            <rect x="-56" y="-72" width="22" height="42" fill="#d32f2f" rx="2"/>
+                            <text x="-45" y="-50" font-size="6" font-weight="800" fill="#fff" text-anchor="middle" transform="rotate(-90 -45 -50)" font-family="'Roboto', sans-serif">JUMBO PACK</text>
+
+                            <!-- Madu & Spoon Graphic representation -->
+                            <ellipse cx="0" cy="40" rx="35" ry="16" fill="#fff9c4" stroke="#fbc02d" stroke-width="1.5"/>
+                            <text x="0" y="44" font-size="10" font-weight="700" fill="#e65100" text-anchor="middle" font-family="'Roboto', sans-serif">Rasa Madu</text>
+                        </g>
+
+                        <!-- Cloud Badge: BARU! -->
+                        <g transform="translate(180, 165)">
+                            <ellipse cx="0" cy="0" rx="26" ry="14" fill="#ff6d00" stroke="#fff" stroke-width="1.5"/>
+                            <text x="0" y="4" font-size="10" font-weight="900" fill="#ffffff" text-anchor="middle" font-family="'Roboto', sans-serif">BARU!</text>
+                        </g>
+
+                        <!-- Bottom Pill: 1000 g | Madu -->
+                        <g transform="translate(225, 385)">
+                            <rect x="-105" y="-16" width="210" height="32" rx="16" fill="#ffb300" stroke="#fff" stroke-width="1.5"/>
+                            <text x="0" y="5" font-size="15" font-weight="900" fill="#012b72" text-anchor="middle" font-family="'Roboto', sans-serif">1000 g  |  Madu</text>
+                        </g>
+
+                        <!-- Bottom-right Badge: 1-3 Tahun -->
+                        <g transform="translate(370, 385)">
+                            <circle cx="0" cy="0" r="26" fill="#0277bd" stroke="#fff" stroke-width="2.5"/>
+                            <text x="0" y="-3" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle" font-family="'Roboto', sans-serif">1-3</text>
+                            <text x="0" y="11" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle" font-family="'Roboto', sans-serif">Tahun</text>
+                        </g>
+
+                        <!-- Fine Print Disclaimer -->
+                        <text x="440" y="442" font-size="7.5" fill="#90caf9" text-anchor="end" font-family="'Roboto', sans-serif">*Dibandingkan formula sebelumnya</text>
+                    </svg>
+                </div>
+
+                <!-- Thumbnail Carousel -->
+                <div class="pdp-thumbnail-carousel">
+                    <button class="pdp-thumb-arrow" id="btnPrevThumb" aria-label="Foto Sebelumnya">&lt;</button>
+                    <div class="pdp-thumb-list" id="thumbList">
+                        <!-- Thumb 1: Main Product Image -->
+                        <div class="pdp-thumb-item active" onclick="switchSlide(0)" title="Visual Utama">
+                            <svg viewBox="0 0 100 100" width="100%" height="100%">
+                                <rect width="100" height="100" fill="#0a1945"/>
+                                <rect x="30" y="25" width="40" height="50" rx="4" fill="#ffca28"/>
+                                <rect x="30" y="35" width="40" height="15" fill="#012b72"/>
+                                <text x="50" y="45" font-size="7" font-weight="900" fill="#fff" text-anchor="middle">Bebelac</text>
+                            </svg>
+                        </div>
+                        <!-- Thumb 2: NutriGreat Info -->
+                        <div class="pdp-thumb-item" onclick="switchSlide(1)" title="Inovasi NutriGreat+">
+                            <svg viewBox="0 0 100 100" width="100%" height="100%">
+                                <rect width="100" height="100" fill="#0288d1"/>
+                                <text x="50" y="45" font-size="9" font-weight="900" fill="#fff" text-anchor="middle">NutriGreat+</text>
+                                <text x="50" y="62" font-size="7" font-weight="600" fill="#e1f5fe" text-anchor="middle">Formula Baru</text>
+                            </svg>
+                        </div>
+                        <!-- Thumb 3: 2x DHA -->
+                        <div class="pdp-thumb-item" onclick="switchSlide(2)" title="DHA & Nutrisi Otak">
+                            <svg viewBox="0 0 100 100" width="100%" height="100%">
+                                <rect width="100" height="100" fill="#0d47a1"/>
+                                <circle cx="50" cy="50" r="30" fill="#ffca28"/>
+                                <text x="50" y="48" font-size="11" font-weight="900" fill="#bf360c" text-anchor="middle">2x</text>
+                                <text x="50" y="60" font-size="8" font-weight="800" fill="#bf360c" text-anchor="middle">DHA</text>
+                            </svg>
+                        </div>
+                        <!-- Thumb 4: 3 Serat Penting -->
+                        <div class="pdp-thumb-item" onclick="switchSlide(3)" title="Triple Fiber">
+                            <svg viewBox="0 0 100 100" width="100%" height="100%">
+                                <rect width="100" height="100" fill="#1565c0"/>
+                                <circle cx="50" cy="50" r="30" fill="#ffca28"/>
+                                <text x="50" y="47" font-size="12" font-weight="900" fill="#bf360c" text-anchor="middle">3</text>
+                                <text x="50" y="58" font-size="6" font-weight="800" fill="#bf360c" text-anchor="middle">SERAT PENTING</text>
+                            </svg>
+                        </div>
+                        <!-- Thumb 5: 0g Sukrosa -->
+                        <div class="pdp-thumb-item" onclick="switchSlide(4)" title="0g Sukrosa">
+                            <svg viewBox="0 0 100 100" width="100%" height="100%">
+                                <rect width="100" height="100" fill="#01579b"/>
+                                <circle cx="50" cy="50" r="28" fill="#ffd54f"/>
+                                <text x="50" y="48" font-size="10" font-weight="900" fill="#e65100" text-anchor="middle">0g</text>
+                                <text x="50" y="59" font-size="6" font-weight="800" fill="#e65100" text-anchor="middle">SUKROSA</text>
+                            </svg>
+                        </div>
+                        <!-- Thumb 6: Promo LazFlash -->
+                        <div class="pdp-thumb-item" onclick="switchSlide(5)" title="Promo Spesial">
+                            <svg viewBox="0 0 100 100" width="100%" height="100%">
+                                <rect width="100" height="100" fill="#ff9800"/>
+                                <text x="50" y="45" font-size="10" font-weight="900" fill="#fff" text-anchor="middle">1000g</text>
+                                <text x="50" y="60" font-size="7" font-weight="700" fill="#fff" text-anchor="middle">Rasa Madu</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <button class="pdp-thumb-arrow" id="btnNextThumb" aria-label="Foto Selanjutnya">&gt;</button>
+                </div>
+            </div>
+
+            <!-- Right Column: Product Information & Purchase Controls -->
+            <div class="pdp-info-col">
+                <!-- Title Row -->
+                <div class="pdp-header-row">
+                    <div class="pdp-title-container">
+                        <span class="pdp-lazmall-badge">LAZMALL</span>
+                        <h1 class="pdp-product-title">Bebelac 3 / Bebelac 1+ Madu Susu Pertumbuhan Bubuk 1000gr - Untuk Usia 1-3 Tahun</h1>
+                    </div>
+                    <div class="pdp-app-qr-link" title="Buka di Aplikasi Lazada">
+                        <div class="pdp-qr-icon-box">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#757575" stroke-width="2">
+                                <rect x="3" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="3" width="7" height="7"></rect>
+                                <rect x="3" y="14" width="7" height="7"></rect>
+                                <rect x="14" y="14" width="7" height="7"></rect>
+                            </svg>
+                        </div>
+                        <span>App</span>
+                    </div>
+                </div>
+
+                <!-- Rating & Brand Row -->
+                <div class="pdp-rating-meta">
+                    <span class="pdp-stars">★★★★★</span>
+                    <span class="pdp-rating-score">4.9</span>
+                    <span class="pdp-rating-count">(6674)</span>
+                </div>
+                <div class="pdp-brand-row">
+                    <span>Merek: </span>
+                    <a href="#" class="pdp-brand-link">Bebelac</a>
+                    <span style="color: #bdbdbd; margin: 0 4px;">|</span>
+                    <a href="#" class="pdp-brand-link">Lebih banyak Susu Formula &amp; Makanan Bayi dari Bebelac</a>
+                </div>
+
+                <!-- LazFlash Banner -->
+                <div class="lazflash-bar">
+                    <div class="lazflash-left">
+                        <div class="lazflash-title">
+                            <span>⚡</span>
+                            <span>LazFlash</span>
+                        </div>
+                        <div class="lazflash-timer">
+                            Berakhir pada <strong id="flashCountdown">5 hari 23:25:42</strong>
+                        </div>
+                    </div>
+                    <div class="lazflash-right">
+                        <div class="lazflash-sold-box">
+                            <div class="lazflash-sold-fill"></div>
+                            <span class="lazflash-sold-text">Terjual 1 di LazFlash</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Price Section -->
+                <div class="pdp-price-box">
+                    <div class="pdp-price-now">
+                        <span class="pdp-curr">Rp</span>197.400
+                    </div>
+                    <div class="pdp-price-was">Rp209.000</div>
+                    <div class="pdp-discount-pill">-6%</div>
+                </div>
+
+                <!-- Specs: Delivery & Warranty -->
+                <div class="pdp-spec-table">
+                    <!-- Delivery Option -->
+                    <div class="pdp-spec-row">
+                        <div class="pdp-spec-label">Pilihan pengiriman :</div>
+                        <div class="pdp-spec-value">
+                            <div class="pdp-location-line">
+                                <span style="color: #757575;">📍</span>
+                                <span>DKI Jakarta, Kota Jakarta Barat, Cengkareng</span>
+                                <a href="#" class="pdp-change-link">UBAH</a>
+                            </div>
+                            <div class="pdp-delivery-guarantee">
+                                <span style="color: #1a73e8; font-size: 14px;">ℹ️</span>
+                                <span>Dijamin tiba 5-9 Okt &gt;</span>
+                            </div>
+                            <div class="pdp-delivery-sub">Standar, with shipping fee Rp9.000</div>
+                        </div>
+                    </div>
+
+                    <!-- Return & Warranty Option -->
+                    <div class="pdp-spec-row">
+                        <div class="pdp-spec-label">Pengembalian &amp; Garansi :</div>
+                        <div class="pdp-spec-value">
+                            <div class="pdp-warranty-line">
+                                <span style="color: #2e7d32;">🛡️</span>
+                                <span>100% Ori · Berubah Pikiran · Pengembalian Gratis 30 Hari · Garansi tidak tersedia</span>
+                                <span class="pdp-warranty-arrow">&gt;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Variant Options -->
+                <div class="pdp-variant-section">
+                    <!-- Size Variant -->
+                    <div class="variant-row">
+                        <div class="variant-label">Size</div>
+                        <div class="variant-options-group">
+                            <button type="button" class="variant-btn selected">
+                                <div class="variant-thumb">
+                                    <svg viewBox="0 0 40 40" width="100%" height="100%">
+                                        <rect width="40" height="40" fill="#0d1b3e"/>
+                                        <rect x="10" y="8" width="20" height="24" rx="2" fill="#ffca28"/>
+                                    </svg>
+                                </div>
+                                <span>1 kg</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Flavor Variant -->
+                    <div class="variant-row">
+                        <div class="variant-label">Flavor</div>
+                        <div class="variant-options-group">
+                            <button type="button" class="variant-btn selected">Honey</button>
+                            <button type="button" class="variant-btn">Vanilla</button>
+                        </div>
+                    </div>
+
+                    <!-- Can Quantity Variant -->
+                    <div class="variant-row">
+                        <div class="variant-label">Jumlah kaleng:</div>
+                        <div class="variant-options-group">
+                            <button type="button" class="variant-btn selected">1</button>
+                            <button type="button" class="variant-btn">2</button>
+                            <button type="button" class="variant-btn">3</button>
+                        </div>
+                    </div>
+
+                    <!-- Quantity Stepper -->
+                    <div class="variant-row">
+                        <div class="variant-label">Kuantitas:</div>
+                        <div style="display: flex; align-items: center;">
+                            <div class="quantity-stepper">
+                                <button type="button" class="qty-btn" id="btnQtyMinus" aria-label="Kurangi kuantitas">−</button>
+                                <input type="text" class="qty-input" id="qtyInput" value="1" readonly>
+                                <button type="button" class="qty-btn" id="btnQtyPlus" aria-label="Tambah kuantitas">+</button>
+                            </div>
+                            <span class="qty-stock-warning">Hampir habis!</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Action Buttons -->
+                <div class="pdp-action-row">
+                    <button type="button" class="btn-pdp-buy-now" onclick="window.location.href='checkout.html'">Beli sekarang</button>
+                    <button type="button" class="btn-pdp-add-cart" onclick="addToCartNotice()">Tambah ke troli</button>
+                    <div class="pdp-social-actions">
+                        <button type="button" class="social-action-btn" title="Bagikan produk">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/>
+                            </svg>
+                            <span>Share</span>
+                        </button>
+                        <button type="button" class="social-action-btn" id="btnLike" title="Sukai produk" onclick="toggleLike()">
+                            <svg id="likeHeartIcon" viewBox="0 0 24 24">
+                                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                            </svg>
+                            <span id="likeLabel">Like</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seller / Store Banner Card -->
+        <section class="seller-shop-card">
+            <div class="seller-profile-left">
+                <div class="seller-avatar-box">Bebelac</div>
+                <div class="seller-brand-info">
+                    <div class="seller-name-row">
+                        <span class="seller-name">Bebelac</span>
+                        <span class="seller-badge-lazmall">LazMall</span>
+                        <span class="seller-badge-utama">Toko Utama</span>
+                    </div>
+                    <div class="seller-metrics-row">
+                        <span class="seller-metric-pill">Nilai Toko 98%</span>
+                        <span class="seller-metric-pill">🏆 4 Penjual Teratas untuk Sus...</span>
+                        <span class="seller-metric-pill">📦 1.4M Terj...</span>
+                        <span class="seller-metric-pill">⏱️ Balasan cepat: ...</span>
+                        <span class="seller-metric-pill">🚚 Pengiriman Cepat: 96%</span>
+                        <span class="seller-metric-pill">👥 773 Pela...</span>
+                    </div>
+                </div>
+            </div>
+            <div class="seller-cta-right">
+                <button type="button" class="btn-store-chat">
+                    <span style="color: #f53d2d;">💬</span>
+                    <span>Chat</span>
+                </button>
+                <button type="button" class="btn-store-visit" onclick="window.location.href='index.html'">
+                    <span>🏪</span>
+                    <span>KUNJUNGI TOKO</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Floating Chat Widget -->
+    <div class="floating-chat" onclick="alert('Membuka Lazada Chat...')">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+            <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+        </svg>
+        <span>Pesan</span>
+    </div>
+
+    <!-- Interactive Logic (Vanilla JavaScript) -->
+    <script>
+        // Quantity Stepper
+        const qtyInput = document.getElementById('qtyInput');
+        document.getElementById('btnQtyMinus').addEventListener('click', () => {
+            let current = parseInt(qtyInput.value) || 1;
+            if (current > 1) {
+                qtyInput.value = current - 1;
+            }
+        });
+        document.getElementById('btnQtyPlus').addEventListener('click', () => {
+            let current = parseInt(qtyInput.value) || 1;
+            if (current < 10) {
+                qtyInput.value = current + 1;
+            }
+        });
+
+        // Add to cart toast feedback
+        function addToCartNotice() {
+            if (confirm('Produk berhasil ditambahkan ke troli! Apakah Anda ingin langsung ke halaman Checkout?')) {
+                window.location.href = 'checkout.html';
+            }
+        }
+
+        // Like button toggle
+        let isLiked = false;
+        function toggleLike() {
+            isLiked = !isLiked;
+            const heart = document.getElementById('likeHeartIcon');
+            const label = document.getElementById('likeLabel');
+            if (isLiked) {
+                heart.style.fill = '#f53d2d';
+                label.style.color = '#f53d2d';
+                label.textContent = 'Liked';
+            } else {
+                heart.style.fill = 'currentColor';
+                label.style.color = '#757575';
+                label.textContent = 'Like';
+            }
+        }
+
+        // Variant Selection
+        document.querySelectorAll('.variant-options-group').forEach(group => {
+            const buttons = group.querySelectorAll('.variant-btn');
+            buttons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    buttons.forEach(b => b.classList.remove('selected'));
+                    btn.classList.add('selected');
+                });
+            });
+        });
+
+        // Live Flash Sale Countdown
+        let totalSeconds = 5 * 86400 + 23 * 3600 + 25 * 60 + 42;
+        function updateTimer() {
+            if (totalSeconds <= 0) return;
+            totalSeconds--;
+            const days = Math.floor(totalSeconds / 86400);
+            const hours = Math.floor((totalSeconds % 86400) / 3600);
+            const minutes = Math.floor((totalSeconds % 3600) / 60);
+            const seconds = totalSeconds % 60;
+            const pad = (n) => String(n).padStart(2, '0');
+            const timerElem = document.getElementById('flashCountdown');
+            if (timerElem) {
+                timerElem.textContent = `${days} hari ${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+            }
+        }
+        setInterval(updateTimer, 1000);
+
+        // Slide switcher
+        function switchSlide(index) {
+            const thumbs = document.querySelectorAll('.pdp-thumb-item');
+            thumbs.forEach((t, i) => {
+                t.classList.toggle('active', i === index);
+            });
+        }
+    </script>
 </body>
 </html>
